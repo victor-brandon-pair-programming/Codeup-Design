@@ -2,11 +2,18 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    font-family: Helvetica;
+    font-weight: bold;
+    display: flex;
+}
 .flex-container {
     width: 100%;
-    border: 1px solid crimson;
+    border: 3px solid goldenrod;
 }
-
-.flex-items {
-   flex-direction: row;
+.flex-item {
+    background: #BFD45D;
+    border: 2px solid #F9EFD6;
+    padding: 1em;
 }
