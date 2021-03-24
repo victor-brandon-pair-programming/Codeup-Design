@@ -10,10 +10,17 @@ body {
 }
 .flex-container {
     width: 100%;
-    border: 3px solid goldenrod;
+    border: 3px solid crimson;
 }
 .flex-item {
     background: #BFD45D;
     border: 2px solid #F9EFD6;
     padding: 1em;
+    float: right;
+}
+
+img {
+    height: 105px;
+    width: 105px;
+
 }
