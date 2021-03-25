@@ -84,6 +84,8 @@ img {
     border: 1px solid crimson;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 25px;
 
 }
 
@@ -113,6 +115,7 @@ img {
     font-family: 'Anton', sans-serif;
     border: 5px solid white;
     font-size: x-large;
+
 }
 
 #circle-container .inner-circle-2 {
@@ -159,3 +162,36 @@ img {
     border: 5px solid white;
     font-size: x-large;
 }
+
+#footer {
+    height: 400px;
+    width: 100%;
+    border: 1px solid #ff395a;
+    display: flex;
+    flex-direction: column;
+}
+
+.h4{
+    font-family: 'Abel', sans-serif;
+}
+
+.img {
+    height: 350px;
+    width: 80%;
+    border: 5px solid #E6E6E6;
+    border-radius: 1%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+
+}
+
+.footcontainer-1 {
+    height: 350px;
+    width: 100%;
+}
+
+#h4 {
+    font-family: 'Abel', sans-serif;
+}
+
