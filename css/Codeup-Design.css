@@ -82,6 +82,9 @@ img {
     height: 400px;
     width: 100%;
     border: 1px solid crimson;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .outer-circle {
@@ -105,10 +108,11 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    /*position: absolute;*/
     color: white;
     font-family: 'Anton', sans-serif;
-
+    border: 5px solid white;
+    font-size: x-large;
 }
 
 #circle-container .inner-circle-2 {
@@ -119,10 +123,11 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    /*position: absolute;*/
     color: white;
     font-family: 'Anton', sans-serif;
-
+    border: 5px solid white;
+    font-size: x-large;
 }
 
 #circle-container .inner-circle-3 {
@@ -133,10 +138,11 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    /*position: absolute;*/
     color: white;
     font-family: 'Anton', sans-serif;
-
+    border: 5px solid white;
+    font-size: x-large;
 }
 
 #circle-container .inner-circle-4 {
@@ -147,8 +153,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    /*position: absolute;*/
     color: white;
     font-family: 'Anton', sans-serif;
-
+    border: 5px solid white;
+    font-size: x-large;
 }
