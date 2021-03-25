@@ -1,8 +1,12 @@
 * {
     box-sizing: border-box;
 }
-/*font-family: 'Abel', sans-serif;*/
-/*font-family: 'Anton', sans-serif;*/
+
+/*Tools for the project:*/
+    /*background-color: #F0F0F0;*/
+    /*font-family: 'Abel', sans-serif;*/
+    /*font-family: 'Anton', sans-serif;*/
+
 body {
     margin: 0;
     font-weight: bold;
@@ -66,8 +70,85 @@ img {
 
 .header {
     font-family: 'Anton', sans-serif;
-    margin-left: 3em;
     height: 100px;
     width: 250px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle-container {
+    height: 400px;
+    width: 100%;
+    border: 1px solid crimson;
+}
+
+.outer-circle {
+    height: 150px;
+    width: 150px;
+    background-color: #F0F0F0;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    position: relative;
+
+}
+
+
+
+#circle-container .inner-circle-1 {
+    height: 135px;
+    width: 135px;
+    background-color: #E6563B;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    font-family: 'Anton', sans-serif;
+
+}
+
+#circle-container .inner-circle-2 {
+    height: 135px;
+    width: 135px;
+    background-color: #EB9D3A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    font-family: 'Anton', sans-serif;
+
+}
+
+#circle-container .inner-circle-3 {
+    height: 135px;
+    width: 135px;
+    background-color: #7CB06C;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    font-family: 'Anton', sans-serif;
+
+}
+
+#circle-container .inner-circle-4 {
+    height: 135px;
+    width: 135px;
+    background-color: #00ABA9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    font-family: 'Anton', sans-serif;
 
 }
