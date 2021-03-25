@@ -29,9 +29,10 @@ body {
 }
 
 
-#nav-h1 {
+.h1 {
     font-family: 'Abel', sans-serif;
-    border: 3px solid crimson;
+    display: flex;
+    justify-items: center;
 
 
 
@@ -39,7 +40,6 @@ body {
 
 .flex-container {
     width: 100%;
-    border: 3px solid crimson;
     display: flex;
 }
 
@@ -64,3 +64,10 @@ img {
     font-family: 'Abel', sans-serif;
 }
 
+.header {
+    font-family: 'Anton', sans-serif;
+    margin-left: 3em;
+    height: 100px;
+    width: 250px;
+
+}
