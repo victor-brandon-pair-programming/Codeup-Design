@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Tools for the project:*/
+    /*background-color: #F0F0F0;*/
+    /*font-family: 'Abel', sans-serif;*/
+    /*font-family: 'Anton', sans-serif;*/
+
+body {
+    margin: 0;
+    font-weight: bold;
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+
+
+}
+
+#img-container {
+    width: 100%;
+    background: whitesmoke;
+    position: relative;
+    height: 50px;
+    margin-top: 2em;
+}
+
+#img-container>img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.h1 {
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    justify-items: center;
+
+
+
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+}
+
+.flex-item {
+    width: 100%;
+    padding: 1em;
+
+}
+
+
+img {
+    height: 105px;
+    width: 105px;
+    z-index: 1;
+
+
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    font-family: 'Abel', sans-serif;
+}
+
+.header {
+    font-family: 'Anton', sans-serif;
+    height: 100px;
+    width: 250px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle-container {
+    height: 400px;
+    width: 100%;
+    border: 1px solid crimson;
+}
+
+.outer-circle {
+    height: 150px;
+    width: 150px;
+    background-color: #F0F0F0;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    position: relative;
+
+}
+
+
+
+#circle-container .inner-circle-1 {
+    height: 135px;
+    width: 135px;
+    background-color: #E6563B;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    font-family: 'Anton', sans-serif;
+
+}
+
+#circle-container .inner-circle-2 {
+    height: 135px;
+    width: 135px;
+    background-color: #EB9D3A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    font-family: 'Anton', sans-serif;
+
+}
+
+#circle-container .inner-circle-3 {
+    height: 135px;
+    width: 135px;
+    background-color: #7CB06C;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    font-family: 'Anton', sans-serif;
+
+}
+
+#circle-container .inner-circle-4 {
+    height: 135px;
+    width: 135px;
+    background-color: #00ABA9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    font-family: 'Anton', sans-serif;
+
+}
